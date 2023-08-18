@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Piazzolla:ital,wght@0,500;1,100;1,200&display=swap');
+.navBar
+
+{
+        background-color: #f5e900;
+            height: 70px;
+            padding: 10px;
+            display: flex;
+}
+h1
+{
+        font-size: 2.5rem;
+            font-family: Dosis;
+}
+.body {
+    margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        /* top: -6%; */
+        position: relative;
+        margin-top: 35px;
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+.main_note
+{
+        height: 233px;
+            /* border: 1px solid grey; */
+            width: 400px;
+            text-align: center;
+            background-color: #eeeeee7d;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px 1px yellow;
+}
+
+.heading
+{
+        width: 100%;
+            border: transparent;
+            height: 50px;
+            font-size: xx-large;
+            font-family: auto;
+}
+
+textarea{
+    width: 100%;
+    border: transparent;
+    height: 140px;
+}
+.button
+{
+    border: 1px solid yellow !important;
+        border-radius: 50% !important;
+        height: 60px !important;
+        float: right;
+        margin-top: -23px !important;
+}
+
+.notes
+{
+    display: flex;
+        float: left;
+        height: 100%;
+        width: 100%;
+        margin-top: 8%;
+}
+.note
+{
+    width: 25%;
+        margin-top: 16px;
+        margin-left: 30px;
+        text-align: center;
+            background-color: #eeeeee7d;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px 1px yellow;
+}
